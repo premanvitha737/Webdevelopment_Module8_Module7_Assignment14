@@ -1,0 +1,35 @@
+2025-04-12 20:11:13,038 | INFO | werkzeug | [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-04-12 20:11:13,038 | INFO | werkzeug | [33mPress CTRL+C to quit[0m
+2025-04-12 20:11:13,043 | INFO | werkzeug |  * Restarting with stat
+2025-04-12 20:11:13,618 | WARNING | werkzeug |  * Debugger is active!
+2025-04-12 20:11:13,624 | INFO | werkzeug |  * Debugger PIN: 528-734-073
+2025-04-12 20:12:44,173 | INFO | __main__ | Valid request received at /api/test | Payload: {'username': 'john123', 'email': 'john@example.com'}
+2025-04-12 20:12:44,174 | INFO | werkzeug | 127.0.0.1 - - [12/Apr/2025 20:12:44] "POST /api/test HTTP/1.1" 200 -
+2025-04-12 20:15:39,372 | WARNING | __main__ | 400 Error: 400 Bad Request: Failed to decode JSON object: Expecting property name enclosed in double quotes: line 3 column 1 (char 29)
+2025-04-12 20:15:39,393 | INFO | werkzeug | 127.0.0.1 - - [12/Apr/2025 20:15:39] "[31m[1mPOST /api/test HTTP/1.1[0m" 400 -
+2025-04-12 20:15:43,847 | WARNING | __main__ | Missing fields: ['email']
+2025-04-12 20:15:43,849 | WARNING | __main__ | 400 Error: 400 Bad Request: Missing fields: email
+2025-04-12 20:15:43,851 | INFO | werkzeug | 127.0.0.1 - - [12/Apr/2025 20:15:43] "[31m[1mPOST /api/test HTTP/1.1[0m" 400 -
+2025-04-12 20:15:59,364 | WARNING | __main__ | Missing fields: ['username']
+2025-04-12 20:15:59,364 | WARNING | __main__ | 400 Error: 400 Bad Request: Missing fields: username
+2025-04-12 20:15:59,366 | INFO | werkzeug | 127.0.0.1 - - [12/Apr/2025 20:15:59] "[31m[1mPOST /api/test HTTP/1.1[0m" 400 -
+2025-04-12 20:18:39,902 | INFO | werkzeug |  * Detected change in 'C:\\Users\\Premanvitha\\Desktop\\Edubot internship\\module-7(assignment-2)\\ielts_speaking_backend\\app.py', reloading
+2025-04-12 20:18:40,448 | INFO | werkzeug |  * Restarting with stat
+2025-04-12 20:18:42,076 | WARNING | werkzeug |  * Debugger is active!
+2025-04-12 20:18:42,134 | INFO | werkzeug |  * Debugger PIN: 528-734-073
+2025-04-12 20:18:48,767 | INFO | werkzeug | [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-04-12 20:18:48,791 | INFO | werkzeug | [33mPress CTRL+C to quit[0m
+2025-04-12 20:18:48,793 | INFO | werkzeug |  * Restarting with stat
+2025-04-12 20:18:49,306 | WARNING | werkzeug |  * Debugger is active!
+2025-04-12 20:18:49,308 | INFO | werkzeug |  * Debugger PIN: 528-734-073
+2025-04-12 20:20:01,091 | INFO | __main__ | Answer submitted | Name: Alice | Answer: This is my IELTS speaking answer.
+2025-04-12 20:20:01,091 | INFO | werkzeug | 127.0.0.1 - - [12/Apr/2025 20:20:01] "POST /api/submit-answer HTTP/1.1" 200 -
+2025-04-12 20:20:24,321 | WARNING | __main__ | Missing fields: ['answer']
+2025-04-12 20:20:24,323 | WARNING | __main__ | 400 Error: 400 Bad Request: Missing fields: answer
+2025-04-12 20:20:24,323 | INFO | werkzeug | 127.0.0.1 - - [12/Apr/2025 20:20:24] "[31m[1mPOST /api/submit-answer HTTP/1.1[0m" 400 -
+2025-04-12 20:21:42,102 | WARNING | __main__ | 400 Error: 400 Bad Request: Failed to decode JSON object: Expecting property name enclosed in double quotes: line 2 column 3 (char 5)
+2025-04-12 20:21:42,102 | INFO | werkzeug | 127.0.0.1 - - [12/Apr/2025 20:21:42] "[31m[1mPOST /api/submit-answer HTTP/1.1[0m" 400 -
+2025-04-12 20:21:58,329 | WARNING | __main__ | 400 Error: 400 Bad Request: Failed to decode JSON object: Expecting property name enclosed in double quotes: line 2 column 3 (char 5)
+2025-04-12 20:21:58,329 | INFO | werkzeug | 127.0.0.1 - - [12/Apr/2025 20:21:58] "[31m[1mPOST /api/submit-answer HTTP/1.1[0m" 400 -
